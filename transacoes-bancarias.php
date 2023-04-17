@@ -1,6 +1,6 @@
 <?php
 
-include 'funcoes.php';
+require_once 'funcoes.php';
 
 $contasCorrentes = [
     '123.456.789-10' => [
