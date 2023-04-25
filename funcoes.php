@@ -23,5 +23,12 @@ function depositar(array $conta, float $valorADepositar): array {
         exibeMensagem("Depósitos precisam ser positivos");
     }
 
+
+    function titularComLetrasMaiusculas(array &$conta)
+{
+    $conta['titular'] = mb_strtoupper($conta['titular']);
+
+}
+
     return $conta;
 }

@@ -35,6 +35,8 @@ $contasCorrentes['123.456.789-11'] = sacar(
     200
 );
 
+titularComLetrasMaiusculas($contasCorrentes['123.256.789-12']);
+
 
 
 foreach ($contasCorrentes as $cpf => $conta) {
